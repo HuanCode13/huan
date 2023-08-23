@@ -1,9 +1,18 @@
 import './App.css'
+import QuoteFetcher from './QuoteFetcher'
+import Counter from './Counter'
+import QuoteFetcherLoader from './QuoteFetcherLoader'
+import ProfileSearchForm from './ProfileSearchForm'
+import ProfileViewerWithSearch from './ProfileViewerWithSearch'
 
 function App() {
   return (
     <>
-      <h1>hi</h1>
+      {/* <Counter /> */}
+      {/* <QuoteFetcher /> */}
+      {/* <QuoteFetcherLoader /> */}
+      {/* <ProfileSearchForm /> */}
+      <ProfileViewerWithSearch />
     </>
   )
 }
